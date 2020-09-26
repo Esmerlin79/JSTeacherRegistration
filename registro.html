@@ -1,0 +1,77 @@
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper teal">
+          <a href="#" class="brand-logo center">MINERD</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+          </ul>
+        </div>
+      </nav>
+      <br>
+      <br>
+      <div class="container"> 
+         <center>  <h4>Registro de entrega de computadoras</h4></center>
+        <br><br><br>
+          <div class="row">
+        <form class="col s12" action="" id="form" method="POST">
+          <div class="row">
+    
+            <div class="input-field col s6">
+              <input  id="cedula" type="text" class="validate">
+              <label for="cedula">Cedula</label>
+            </div>
+    
+            <div class="input-field col s6">
+              <input id="correo" type="email" class="validate">
+              <label for="correo">Correo</label>
+            </div>
+          </div>
+         
+          <div class="input-field col s12">
+            <input id="escuela" type="text" class="validate">
+            <label for="escuela">Escuela en la que imparte Docencia</label>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field col s12">
+              <textarea id="des" class="materialize-textarea"></textarea>
+              <label for="des">Descripcion de la computadora</label>
+            </div>
+           <br><br>
+
+            <div class="file-field input-field">
+                <div class="btn">
+                  <span>Foto</span>
+                  <input type="file" id="foto">
+                </div>
+                <div class="file-path-wrapper">
+                  <input class="file-path validate" type="text">
+                </div>
+              </div>
+
+
+            <br><br>
+              <button class="btn waves-effect waves-light" type="submit" name="action">Guardar
+                <i class="material-icons right">send</i>
+              </button>
+              
+        </form>
+      </div>
+    </div>
+    <img id="pon" alt="">
+</div>      
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>   
+</body>
+</html>
